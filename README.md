@@ -3,6 +3,8 @@ This repository contains a beginner-friendly R project designed to explore the f
 
 This code serves as a practical sandbox for learning how to process, analyze, and visualize raw unstructured text data.
 The code is an end-to-end text mining pipeline, from data collection to advanced clustering, without relying on black-box sentiment APIs.
+You can find the code in the file named: "project code.R"
+
 
 Data Sources
 The project analyzes audience reception and discussions surrounding recent films (e.g., Dune: Part Two, Spiderman: Across the Spiderverse, No Other Land) using two distinct data sources:
@@ -26,5 +28,5 @@ Descriptive Analytics: Generates term-document matrices (TDM) to extract high-fr
 
 Hierarchical Clustering: Measures the cosine distance between word frequencies to group co-occurring terms into distinct semantic clusters, visualized via dendrograms and comparison clouds. The optimal number of clusters is guided by Silhouette score analysis.
 
-Metadata sectionm:
+Metadata section:
 In order to run the second half of the script, you need to download two CSV files (TableMovies.csv and CommentTable_Final.csv) containing Letterboxd data, as well as a formatted Excel file (Review_file.xlsx) to resolve specific multi-word corrections.
